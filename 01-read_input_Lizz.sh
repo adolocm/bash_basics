@@ -9,6 +9,6 @@ echo "Welcome, Elizabeth Haynie"
 echo 'Your name was stored in Elizabeth Haynie'
 
 # exercise: write a script that asks the user for a 
-echo "What is the empty file name?"
+echo "What is the empty file name ?"
 # filename and create an empty file named after it
 read filename
