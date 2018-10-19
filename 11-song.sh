@@ -38,7 +38,7 @@ case $note in
       ;;
 
       hi|hey)
-      echo "Hello ALL"
+      echo "Hello ALL, This is Lizz editing the github file"
       ;;
 esac
 
