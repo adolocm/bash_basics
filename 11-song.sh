@@ -36,6 +36,10 @@ case $note in
    *) 
       echo "Not a note"
       ;;
+
+      hi|hey)
+      echo "Hello ALL"
+      ;;
 esac
 
 done
