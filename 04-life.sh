@@ -12,5 +12,15 @@ fi
 #  here are some other arithemetic comparison operators
 # -eq -ne -gt -ge -lt -le
 
-# exercise: write a script that prints whether it is 
+# exercise: write a script that prints whether it is
 # morning or not
+
+
+echo "Is it AM or PM time?"
+read inputTime
+
+if [ "$inputTime" ==  AM ]; then
+  echo "It is morning time"
+else
+  echo "It must be afternoon time"
+fi
