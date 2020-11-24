@@ -14,3 +14,12 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+echo "Is it morning?"
+read timeofday
+
+if [ "$timeofday" -eq 'Yes' -o "$timeofday" -eq 'yes']; then
+   echo "Good morning"
+else
+   echo "Good afternoon/night"
+fi
+

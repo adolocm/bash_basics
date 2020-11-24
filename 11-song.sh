@@ -1,36 +1,31 @@
 #!/bin/sh
 
 
+
+# exercise: Change the input question and case 
+# statement to another theme. 
+
 while [ true ]; do
 
    # you can show a prompt with the read command
-   read -p "Do rae mi fa so la ti do? (q to end) > " note
+   read -p "f u n d (q to end) > " letter
 
-case $note in
+case $letter in
    # each case matches a pattern
-   do|Do)
-      echo "Doe a deer a female deer"
+   f|F)
+      echo "F is for friends who do stuff together"
       ;;   
-   rae|Rae)
-      echo "Ray a drop of golden sun"
+   u|U)
+      echo "U is for you and me"
       ;;
-   mi|Mi)
-      echo "Me a name a call myself"
+   n|N)
+      echo "N is for anywhere and anytime at all"
       ;;
-   fa|Fa)
-      echo "Far a long long way to run"
-      ;;
-   so|So)
-      echo "So a note that follows fa"
-      ;;
-   la|La)
-      echo "La a note that follow so"
-      ;;
-   ti|ta)
-      echo "Tea I drink with jam and bread"
+   d|D)
+      echo "Down here in the deep blue sea"
       ;;
    q)
-      echo "Hope you enjoyed the sound of music"
+      echo "Hope you enjoyed the Spongebob Song"
       exit 0
       ;;
    *) 
@@ -39,6 +34,3 @@ case $note in
 esac
 
 done
-
-# exercise: Change the input question and case 
-# statement to another theme. 
