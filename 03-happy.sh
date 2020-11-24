@@ -14,3 +14,11 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+echo "What day is it?"
+read day
+
+if [ "$day" = "Saturday" -o "$day" = "Sunday" ]; then
+   echo "it's the weekend"
+else
+   echo "it's not the weekend"
+fi

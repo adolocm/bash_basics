@@ -18,4 +18,4 @@ echo "Creating $filename ..."
 touch $filename
 echo "$filename created"
 ls
-echo "Bye,bye"
+echo "Bye,bye May"
